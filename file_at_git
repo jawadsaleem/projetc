@@ -1,1 +1,9 @@
-this is test 
+But just as your remote is called origin, you can give any remote a more memorable name. Your own origin has an upstream repository (mine); it’s a convention to name that upstream.
+
+Add a remote
+git remote add upstream git@github.com:evildmp/afraid-to-commit.git
+Fetch remote data
+The remote’s there, but you don’t yet have any information about it. You need to fetch that:
+
+git fetch upstream
+This means: get the latest information about the branches on upstream.
